@@ -1,0 +1,107 @@
+.banner-image {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0)), url("/IMG/hero1.png") center no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-phone-image img {
+    width: 300px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+    transition: .25s ease-in-out 0.5s;
+}
+
+.btn-accent {
+    color: crimson;
+    border-color: crimson;
+}
+
+.btn-accent:hover,
+.btn-accent:focus {
+    background: rgba(204, 6, 50);
+    color: white;
+    transition: .25s ease-in-out 0s;
+}
+
+.carousel-item {
+    height: 15rem;
+    background: black;
+    color: white;
+    font-family: Assistant;
+    font-size: 15px;
+}
+
+.carousel-fade .carousel-item {
+    transition-duration: .6s;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.carousel-item .carousel-caption {
+    color: blackñ
+}
+
+@media (max-width: 991px) {
+    .col-xs-12 {
+        margin-bottom: 10px;
+    }
+}
+
+.between-sec {
+    padding: 20rem 0;
+    text-align: center;
+}
+
+.between-sec-color {
+    color: white;
+}
+
+.section-paralax {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/IMG/hero1.jpg") center no-repeat;
+    background-size: cover;
+    padding: 10em 0;
+    background-attachment: fixed;
+}
+
+#slide1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0)), url("/IMG/ingre.jpg") center no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#slide2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0)), url("/IMG/beans.jpg") center no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#slide3 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0)), url("/IMG/pp.jpg") center no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: crimson;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
